@@ -1,7 +1,9 @@
 # VGG19_Image_Classifier
 Sample image classifier using pretrained imagenet weights on the VGG19 architecture
 
-Run from command line this simple script takes in a directory path and classifies all images in the directory. 
+PLEASE NOTE: Script requires keras, which can be cloned from https://github.com/keras-team/keras.
+
+Run from command line this simple script takes in a directory path and classifies all images in the directory, printing out the image, then top 5 category classifications, images are classified sequentially. 
 
 Example:
 
